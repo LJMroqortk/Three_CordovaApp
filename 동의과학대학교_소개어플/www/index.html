@@ -1,0 +1,300 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="css/stylehtml.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+<div data-theme="b">
+	<div data-role="page" id="home">
+		<div data-role="header" data-theme="b" id="bar">
+			<h1>동의과학대학교 소개</h1>
+		</div>
+		<div data-role="content" style="text-align:center">
+				<img src="img/DIT_mark.png" id="profile">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#intro">동의과학대학교 소개</a></li>
+				<li><a href="#movie" data-rel="dialog">동의과학대학교 홍보 영상</a></li>
+				<li><a href="#sing" data-rel="dialog">대학교 상징 / 교가</a></li>
+				<li><a href="#gallery">동의과학대학교 건물 사진</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>동의과학대학교_이주명</h1>
+		</div>
+	</div>
+	<!-- 대학교 소개 -->
+	<div data-role="page" id="intro" data-theme="b" style="background-color: whitesmoke;">
+		<div data-role="header" data-theme="b" id="bar">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">돌아가기</a>			
+			<h1>대학교 소개</h1>
+		</div>
+		<div data-role="content">
+				<div  style="text-align:center">
+					<img src="img/DIT_mark.png" id="profile">
+				</div>			
+			<div data-role="collapsible-set" data-content-theme="e">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>총장의 인사말</h3>
+					<h4>동의과학대학교는 학생이 주인공인 무대입니다!</h4>
+					<img src="img/profile.jpg" alt="동의과학대학교 총장" id="profile">
+					<div id="text-style1">
+					<p>최근 들어 전문대학의 위상이 급격하게 높아지고 있습니다.<br>
+						무한경쟁이 전면화되면서 전문적인 기술의 중요성이 
+						그 어느 때보다 강조되고, <br> 특히 직업을 세분화하는 시대적 흐름에 
+						따라 직업교육을 지향하는 전문대학의 역할이 더욱 중시되고 있습니다. <br>
+						이미 몇 년전부터 전문대학의 취업률이 일반대학의 취업률을 크게 앞섰으며, <br>
+						학력파괴라는 시대적 흐름과 함께 학력 간 임금 격차는 사라지고 있습니다.</p>
+						<h3 id="text_color">이른바 '학력 간 역전 현상'이 대대적으로 시작된 바, <br> 이는 '간판보다 실리', '학력보다 능력'이라는 전 세계적 흐름입니다.</h3>
+						<p>이처럼 취업률과 임금 수준에서 나타나고 있는 학력파괴 현상은 ‘우리 사회가 그만큼 성숙하기 시작했다는 것’, ‘우리 사회의 고질적 문제 중 하나였던 학력 중심 문화가 무너지기 시작했다는 것’을 말해주고 있습니다. <br>
+							그 증거로 무조건 일반대학을 선택하던 수험생들이 취업하기가 용이한 전문대학으로 발길을 돌리고 있고, 수많은 대학들이 살아남기 위해 앞다투어 대대적인 변화를 추구하고 있습니다. <br> <br>
+							미래는 전문가의 시대라고 합니다. 학자보다 테크니션이 대우받는 시대입니다. 기술이 가장 큰 힘이 되는 미래, 전문자격증이 가장 든든한 명함이 되는 미래를 동의과학대학교에서 준비하십시오.
+							일류 전문기술인으로 가는 가장 빠른 길, 동의과학대학교가 열어놓고 있겠습니다.</p>	
+					</div>
+					<img src="img/DIT_down_logo.png" alt="DIT로고" id="img_downlogo"><p style="color: black;"> 동의과학대학교 총자 / 공학박사</p> <img src="img/DIT_name-sign.png" alt="총장 김영도" id="img_downName">
+					
+				</div>
+				<div data-role="collapsible">
+					<h3>설립 이념</h3>
+					<h4>Founding Philosophy</h4>
+					<div>
+					<img src="img/philosophy1.png" id="img_logo">
+					<img src="img/philosophy2.png" id="img_logo">
+					<img src="img/philosophy3.png" id="img_logo">
+					<img src="img/philosophy4.png" id="img_logo">
+					</div>
+					<div id="text-style1">
+						<h3>동의지천</h3>
+						<p style="font-size: 14px;">
+							군자불가이불수신 사수신 불가이불사친 사사친 불가이부지인 사지인 불가이부지천
+							(君子不可以不修身 思修身 不可以不事親 思事親 不可以不知人 思知人 不可以不知天)』<br>
+							- 중용(中庸) 제4편(第四篇) 성론(誠論)에서</p>
+
+					<p>동의는 새로운 도덕관, 바르고 참된 뜻을 펼치는 학문하는 곳이며, 지천은 군자가 걸어야 할 지상의 목표를 뜻한다.
+						본 대학은 동의학원 설립자인 <br> 故 석당 김임식 박사의 학원설립 이념인 '동의지천(東義知天)'에 바탕을 두고 있다. 
+						'동의(東義)'와 '지천(知天)'은 동의과학대학교가 지향해야 할 대명제이자 교육 지표로서 동의학원의 설립이념이자 건학정신이라고 할 수 있다.</p>
+						<p>동의과학대학교의 건학정신은 우주 만물의 근본으로서의 진리다. <br>
+							예의 근원으로서의 하늘을 알며, 지인(知人), 사친(事親), 수신(修身)을 통해 인간 본래의 품성을 다듬고 자연의 이치와 조화를 이룸으로써 이성과 도덕성을 겸비한 인격체를 완성하고자 한다. <br>
+							즉 성실한 마음으로 주체성을 자각하고, 여기에서 솟아나는 의롭고 헌신적인 사회봉사의 자세 및 능력 계발을 지향하며, 이를 바탕으로 자아를 실현하고 우주 만물의 근본 이치를 터득하여 국가와 인류 사회의 발전에 기여하는 창조적인 동의인을 형성하는 데 목적이 있다.</p>
+							<p>동의학원</p> <br>
+							<img src="img/DIT_doctorName.jpg" alt="설립자"><p>의 설립이념</p>
+					</div>
+				</div>
+				<div data-role="collapsible" >
+					<h3>교육 목표 / 대학 비전</h3>
+					<h3 id="text_color">Educational goals</h3>
+					<h4>교육목표</h4>
+					<div id="text-style1">
+					<span>국가발전에 필요한 </span><span id="text_color"> 전문 기술인을 양성</span> <br>
+					<p>대한민국 교육의 근본이념에 입각하여 국가 산업 발전에 필요한 전문지식과 이론을 교수 연구하고 재능을 연마하여 국가 발전에 필요한 전문 기술인을 양성한다.</p>
+					</div>
+					<h3 id="text_color">Education policy</h3>
+					<h4>교육방침</h4>
+					<div id="text-style2">
+						<p id="content-header" style="background-color: orange;">창의적인 기술인 양성</p> <br>
+						<p id="content-middle">전문기술인으로서 갖추어야 할 교양과 전문기술을 배양하여 창의적인 직업기술인 양성</p> <br>
+						<p id="content-header" style="background-color: red;">산업사회의 협동인 양성</p> <br>
+						<p id="content-middle">산학협동교육의 강화로 산업사회에 이바지하는 교육과정의 개발</p> <br>
+						<p id="content-header" style="background-color: blueviolet;">성실하고 유능한 직업 기술인 배양</p> <br>
+						<p id="content-middle">발전하는 산업사회의 기술개발에 기여할 수 있는 자질과 능력 배양</p> <br>
+						<p id="content-header" style="background-color: darkblue;">정서 순화</p> <br>
+						<p id="content-middle">면학분위기 조성을 위한 쾌적한 교육환경 조성</p>
+					</div>
+					<h3 id="text_color">Education</h3>
+					<h4>학훈</h4>
+					<div id="text-style2">
+						<p id="content-header" style="background-color: orange;">창의(CREATIVE)</p> <br>
+						<p id="content-middle">
+							' 탐구하고 선도하는 지식인 ' <br>
+							대학의 본질인 학문탐구와 인격도야를 위하여 끊임없이 노력하며, 복지국가 건설과 인류문화의 증진을 위해 창조적 역량을 발휘한다.</p> <br>
+						<p id="content-header" style="background-color: red;">성실(SINCERITY)</p> <br>
+						<p id="content-middle">
+							' 성실하고 능력있는 기술인 ' <br>
+							참 나를 이해하고 삶의 철학의 토대 위에서 전문기술 연마에 정진하며 성실한 태도로 모든 일에 정성을 다하는 생활자세를 확립합니다.</p> <br>
+						<p id="content-header" style="background-color: blueviolet;">협동(COLLABORATION)</p> <br>
+						<p id="content-middle">
+							' 협력하고 실천하는 전문인 ' <br>
+							창의성과 성실성을 바탕으로 가정과 사회, 나아가 국가와 인류세계에 봉사하며, 스스로 협동정신을 발휘하고 이를 행동으로 실천한다.</p> <br>
+					</div>
+					<h3 id="text_color">대학 비전</h3>
+					<div id="text-style2">
+						<div style="text-align: center;">
+							<img src="img/world-pit.jpg" id="img_logo2"> <br>
+							<img src="img/world-pit-name.png"> <br>
+							<img src="img/mission.jpg" id="img_logo3"> <br>
+							<div id="border_1">
+							<p id="text_color">-대학의 사명-</p> <br>
+							<p id="border_text">동의과학대학교는 살아있는 가치관을 가진 능력있는 전문인을 양성한다.</p> <br>
+							<p id="text_color">-사명선언문-</p> <br>
+							<p id="border_text">우리는 올바른 가치관을 가진 유능한 전문인 육성을 위하여 능력중심사회의 직업교육을 선도한다.</p> <br>
+							<p id="text_color">-교육목표-</p> <br>
+							<p id="border_text">대한민국 교육의 근본이념에 입각하여 국가 산업 발전에 필요한 전문 지식과 이론을 교수 연구하고 재능을 연마하여 국가 발전에 필요한 전문 기술인을 양성한다.</p> <br>
+							</div> <br>
+							<img src="img/mission-logo1.png"><br><img src="image/mission-logo2.png"><img src="image/mission-logo3.png"><img src="image/mission-logo4.png">
+							<div id="border_1">
+							<p id="text_color">VALUE</p> <br>
+							<p>살아 있는 가치관</p> <br>
+							<p id="border_text">미래지향적 가치관, 자아실현의 가치관, 긍정적·따뜻한 가치관</p> <br>
+							<p id="text_color">ABILITY</p> <br>
+							<p>꿈을 이룰 수 있는 능력</p> <br>
+							<p id="border_text">창의·성실·협동 능력, 직업 기초 능력, 전공 능력</p> <br>
+							<p id="text_color">TECHNICAL</p> <br>
+							<p>전문인</p> <br>
+							<p id="border_text">전문기술인, 전문직업인, 전문가</p> <br> <br>
+							<p id="text_color">ACE 직업교육</p> <br>
+							<p id="border_text">
+								<span id="text_color">A</span>dvanced <br> 앞장서서 이끄는 대학, 진취적이고 도전적인 대학 <br>
+								<span id="text_color">C</span>ompetency-based <br> 교육과정,교육방법,교육환경을 미래 수요에 대응할 수 있도록 현장 직무중심으로 혁신하여 직무 역량(지식+기술)과 직업 기초 역량(태도+자질)을 달성 <br>
+								<span id="text_color">E</span>ducation <br> 개인이 자율적으로 직업을 이해하고 적성, 흥미, 능력에 알맞은 일을 선택하고, 자신의 일을 개선·유지할 수 있도록 학교교육, 사회교육, 산업현장교육 등 직업생활에 공헌하는교육</p> <br>
+							<p id="text_color">ACE 인재양성</p> <br>
+							<p id="border_text">
+								<span id="text_color">A</span>malgamative <br> 지식과 기술을 융합 <br>
+								<span id="text_color">C</span>reative <br> 새로운 가치를 창출 <br>
+								<span id="text_color">E</span>xpert <br> 바른 인성(Attitude)과 역량(Competency)을 겸비한 인재(Expert)</p>
+							</div>
+
+						</div>
+					</div>
+					<img src="img/DIT_down_logo.png" id="img_downlogo">
+				</div>
+				<div data-role="collapsible" >
+					<h3>캠퍼스 안내</h3>
+					<div id="text-style1">
+						<div style="text-align: center;">
+							<img src="img/DIT_mark.png" id="profile">
+						</div>
+					<div id="border_1" style="text-align: center;">
+						<p id="border_text">
+					<span>주소 <br>
+						● 부산광역시 부산진구 양지로 54 동의과학대학교 <br>
+						대표전화 <br>
+						● 051-852-0011~3 / 051-860-3114 <br>
+						팩스번호 <br>
+						● 051-860-3270
+					</span>
+					</p>
+					</div>
+					<h3 style="text-align: center;">찾아오시는길</h3>
+					<img src="img/subway.jpg" id="img_logo4">
+				</div>
+				<div id="text-style1" style="text-align: center;">
+					<p id="text_color">-시내버스-</p> <br>
+					<p id="border_text" style="width: 90%;height: auto;text-align: center;">
+						<span id="text_color">양정지하철역(2번출구) 정류장 하차</span> <br>
+						5, 62, 141, 5-1, 20, 57, 63 <br>
+						<span id="text_color">양정교차로 정류장 하차</span> <br>
+						62, 1005, 141, 81 <br>
+						<span id="text_color">양정 정류장 하차</span><br>
+						110-1, 99, 129, 87, 86
+					</p> <br>
+					<p id="text_color" >-시외방면-</p> <br>
+					<p id="border_text" style="width: 90%;height: auto;text-align: center;">
+						<span id="text_color">서부 시외버스 터미널 (사상)</span> <br>
+						택시 : 12Km (20분 소요) <br>
+						시내버스 : 서면방면버스(61,8,138-1,161) 이용 → 서면지하철역에서 하차 → 양정방면 버스(5,5-1,57.1005,141)환승 <br>
+						지하철 : 3호선(장산행)승차 → 서면역에서 1호선 (노포동행)환승 → 양정역 하차(2번출구) <br>
+						<span id="text_color">부산 고속버스 터미널 (노포동)</span> <br>
+						택시 : 12Km (20분 소요) <br>
+						지하철 : 1호선(신평행) 승차 → 양정역 하차(2번출구)<br>
+						<span id="text_color">김해국제공항</span><br>
+						시내버스 : 5, 62, 141, 5-1, 20, 57, 63 <br>
+						지하철 : 공항 좌석버스 201번 승차 → 롯데호텔백화점 정류장 하차 → 지하철 1호선 (노포동행) 환승 → 양정역 하차(2번출구) <br>
+						<span id="text_color">부산역, 부산항 국제여객선 터미널</span> <br>
+						택시 : 8Km (15분 소요) <br>
+						지하철 : 1호선 (노포동행)승차 → 양정역 하차 (2번출구)
+					</p> <br>
+					<p id="text_color" >-승용차이용-</p> <br>
+					<p id="border_text" style="width: 90%;height: auto;text-align: center;">
+						<span id="text_color">경부고속도로</span> <br>
+						구서IC -> 국도(금정문화회관 경유)<br>
+						경부고속도로 톨게이트 → 구서IC(직진) → 금정구청방향(우회전) → 내성로타리(지하차도) → 교대앞 → 연산로타리(시청방향) → 시청앞(망미동방향-좌회전) → 이마트앞(우회전) → 동의과학대학<br>
+						<span id="text_color">도시고속도로 -1(문현동 경유)</span> <br>
+						경부고속도로 톨게이트 → 구서IC(도시고속도로진입-우회전) → 원동IC(직진) → 문현IC(우회전) → 삼성아파트(전포로-우회전) → 문전교차로(시청방향) → 송공삼거리 → 육교앞(우회전) → 동의과학대학<br>
+						<span id="text_color">도시고속도로 -2(원동IC 경유)</span><br>
+						경부고속도로 톨게이트 → 구서IC(도시고속도로진입-우회전) → 원동IC(우회전) → 충렬사방향(우회전) → 안락로타리(좌회전) → 연산로타리(시청방향) → 시청앞(망미동방향-좌회전) → 이마트앞(우회전) → 동의과학대학<br>
+						<span id="text_color">남해고속도로</span> <br>
+						서부산IC → 동서고가도로 진입 → 서면교차로방향 하차 → 서면로타리(좌회전) → 송공삼거리 → 육교앞(우회전) → 동의과학대학 <br>
+						<span id="text_color">대구 부산간 고속도로</span> <br>
+						대동분기점 → 백양터널 → 서면방향 → 서면로타리(좌회전) → 송공삼거리 → 육교앞(우회전) → 동의과학대학 <br>
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>동의과학대학교_이주명</h1>
+		</div>		
+	</div>
+	<!-- 홍보영상 -->
+	<div data-role="page" id="movie" data-theme="b" style="text-align:center;background-color: whitesmoke;">
+		<div data-role="header" data-position="fixed" data-theme="b" id="bar">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">돌아가기</a>	
+			<h1>동의과학대학교 홍보 영상</h1>
+		</div>
+		<img src="img/DIT_mark.png" id="profile">
+		<div data-role="content">
+			<div class="ui-bar ui-bar-a">동의과학대학교 캠퍼스 홍보 영상</div><br/>
+			<li><iframe width="100%" height="315" src="https://www.youtube.com/embed/xi1SdV5ZqNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li><br/>
+			<div class="ui-bar ui-bar-a">위에서 보는 동의과학대학교</div><br/>
+			<li><iframe width="100%" height="315" src="https://www.youtube.com/embed/XHySVrxotNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>동의과학대학교_이주명</h1>
+		</div>		
+	</div>
+	<!-- 대학교 교가 -->
+	<div data-role="page" id="sing" data-theme="b" style="text-align:center;background-color: whitesmoke;">
+		<div data-role="header" data-theme="b" id="bar">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">돌아가기</a>	
+			<h1>동의과학대학교 교가</h1>
+		</div>
+		<img src="img/DIT_mark.png" id="profile">
+		<div data-role="content">
+			<div id="text-style2">
+				<h3 id="text_color">상징동물</h3>
+				<h3>호랑이상</h3>
+				<p>동의과학대학교 학생의 진취적인 기상과 웅지를 담고 있습니다. <br>
+					또한 동의과학대학교의 무궁한 발전과 끈기 있는 도전을 희망합니다.</p>
+				<img src="img/symbolImg.jpg" id="img_logo4">
+			</div>
+			<div class="ui-bar ui-bar-e"><h1>대학교 교가</h1></div><br/>
+			<audio controls width="100%" preload="metadata">
+				<source src="img/song.mp3" type="audio/mp3">
+			</audio>	
+			<img src="img/DIT-song.jpg" width="90%">
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>동의과학대학교_이주명</h1>
+		</div>		
+	</div>
+	<div data-role="page" id="gallery"  data-theme="b" style="text-align:center;background-color: whitesmoke;">
+		<div data-role="header" data-position="fixed"  data-theme="b" id="bar">
+			<a href="#home" data-icon="arrow-l" data-direction="reverse">돌아가기</a>
+			<h1>동의과학대학교 사진</h1>
+		</div>
+		<img src="img/DIT_mark.png" id="profile">
+		<div data-role="content">
+            <ul class="picture">
+				<li><a href="image/DIT-school.jpg" rel="external"><img src="img/DIT-school.jpg" /></a></li>
+				<li><a href="image/DIT-school2.jpg" rel="external"><img src="img/DIT-school2.jpg" /></a></li>
+				<li><a href="image/DIT-school3.jpg" rel="external"><img src="img/DIT-school3.jpg" /></a></li>
+				<li><a href="image/DIT-school4.jpg" rel="external"><img src="img/DIT-school4.jpg" /></a></li>
+				<li><a href="image/DIT-school5.jpg" rel="external"><img src="img/DIT-school5.jpg" /></a></li>
+				<li><a href="image/DIT-school6.jpg" rel="external"><img src="img/DIT-school6.jpg" /></a></li>
+            </ul>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="b">
+			<h1>동의과학대학교_이주명</h1>
+		</div>		
+	</div>
+</div>	
+</body>
+</html>

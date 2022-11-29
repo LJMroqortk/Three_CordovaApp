@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+#bar {
+    background-color: red;
+}
+
+h2 h3 h4 {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+h4 {
+    color: black;
+}
+#text_color {
+    color: red;
+}
+span {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 200%;
+    font-size: 16px;
+}
+p {
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 200%;
+    font-size: 16px;
+    text-align: left;
+}
+#content-header {
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin : 10px 0 0 0;
+}
+#content-middle {
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+}
+div > div > #profile {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    margin: 10px 0 10px 0;
+}
+#text-style1 {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+#text-style2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+}
+#border_1 {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#border_text {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 2px 2px 2px 2px;
+}
+#img_downlogo {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+#img_logo {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+}
+#img_logo2 {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+#img_logo3 {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+#img_logo4 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+#img_downName {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+}
+li { list-style:none; }
+.picture { list-style:none; padding:0; margin:0; }
+.picture li { float:left; width:50%;}
+.picture li a {display:block; margin:5px; border: 1px }
+.picture li img { display:block; width:50%;  height:auto;}
+.picture li img:hover { display:block; width:100%;  height:auto;} 
